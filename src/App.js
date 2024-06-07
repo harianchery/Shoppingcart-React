@@ -3,6 +3,7 @@ import './App.css';
 import AddProduct from './components/AddProduct';
 import SearchProduct from './components/SearchProduct';
 import DeleteProduct from './components/DeleteProduct';
+import ViewProducts from './components/ViewProducts';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <AddProduct/>
       <SearchProduct/>
       <DeleteProduct/>
+      <ViewProducts/>
     </div>
   );
 }
